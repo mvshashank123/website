@@ -4,6 +4,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row";
 import ProjectCard from "./ProjectCard";
 import axios from "axios";
+import XMLParser from 'react-xml-parser';
 
 const dummyProject = {
   name: null,
@@ -14,6 +15,7 @@ const dummyProject = {
   pushed_at: null,
 };
 const API = "https://api.github.com";
+const BlogAPI = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@shashankmv"
 // const gitHubQuery = "/repos?sort=updated&direction=desc";
 // const specficQuerry = "https://api.github.com/repos/hashirshoaeb/";
 
@@ -25,6 +27,7 @@ const Project = ({ heading, username, length, specfic }) => {
   );
 
   const [projectsArray, setProjectsArray] = useState([]);
+  const [blogsArray,setBlogsArray] = useState([]);
 
   const fetchRepos = useCallback(async () => {
     let repoList = [];
@@ -34,6 +37,15 @@ const Project = ({ heading, username, length, specfic }) => {
       // slicing to the length
       repoList = [...response.data.slice(0, length)];
       // adding specified repos
+
+      const blogResponse = await axios.get(BlogAPI).then(data => {
+        var xml = new XMLParser().parseFromString(data); 
+        console.log(xml)
+    });
+      console.log(blogResponse)
+      setBlogsArray(blogResponse.items);
+      console.log(blogsArray);
+
       try {
         for (let repoName of specfic) {
           const response = await axios.get(`${specficReposAPI}/${repoName}`);

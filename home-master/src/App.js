@@ -15,10 +15,12 @@ import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
-// import { Blog } from "./components/blog/Blog";
-// import BlogPost from "./components/blog/BlogPost";
+import { Blog } from "./components/blog/Blog";
+import BlogPost from "./components/blog/BlogPost";
+import BlogApi from "./components/blog/BlogApi";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
+import Mui from './components/blog/Mui.js'
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -55,6 +57,7 @@ const Home = React.forwardRef((props, ref) => {
           imageSize={leadership.imageSize}
         />
       )}
+      <BlogApi/>
       {skills.show && (
         <Skills
           heading={skills.heading}
@@ -73,8 +76,9 @@ const App = () => {
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
-      {/* {false && <Route path="/blog" exact component={Blog} />}
-      {false && <Route path="/blog/:id" component={BlogPost} />} */}
+      {true && <Route path="/blog" exact component={Blog} />}
+      {true && <Route path="/blog/:id" component={BlogPost} />}
+      <Mui/>
       <Footer>
         {getInTouch.show && (
           <GetInTouch

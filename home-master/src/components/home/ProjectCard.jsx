@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
+import amazon from "./images/amazon.png";
 import axios from "axios";
 
 const ProjectCard = ({ value }) => {
@@ -17,8 +18,9 @@ const ProjectCard = ({ value }) => {
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
-          <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
-          <Card.Text>{description || <Skeleton count={3} />} </Card.Text>
+          <Card.Title as="h5">{"Amazon Clone" || <Skeleton />} </Card.Title>
+          <Card.Img src={amazon}></Card.Img>
+          {/* <Card.Text>{description || <Skeleton count={3} />} </Card.Text> */}
           {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
           <hr />
           {languages_url ? (
