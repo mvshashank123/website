@@ -20,7 +20,7 @@ const mainBody = {
     {
       "id": 1,
       "image": "fa-medium",
-      "url": "https://medium.com/@mv.shashank123",
+      "url": "https://medium.com/@shashankmv",
       "style": "socialicons"
     },
     {

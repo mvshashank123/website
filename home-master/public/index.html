@@ -34,8 +34,25 @@
     <title>Shashank M V</title>
   </head>
   <body>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script type="text/javascript">
+      function mediumWidget() {
+        MediumWidget.Init({
+          renderTo: "#medium-widget",
+          params: {
+            resource: "https://medium.com/@shashankmv",
+            postsPerLine: 1,
+            limit: 5,
+            picture: "big",
+            fields: ["description", "author", "claps", "publishAt"],
+            ratio: "landscape",
+          },
+        });
+      }
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

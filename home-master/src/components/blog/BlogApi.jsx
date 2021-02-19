@@ -15,7 +15,8 @@ const BlogApi = () => {
                 setPosts([...item])
             })
             console.log(posts)
-            //setPosts(res.filter(item => item.categories.length >0))
+            setPosts(res.filter(item => item.categories.length >0))
+            console.log({posts})
             res.filter(item => item.categories.length >0)
             function toText(node) {
                 let tag = document.createElement('div')
