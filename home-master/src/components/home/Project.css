@@ -27,7 +27,7 @@ h1 {
   object-fit: contain;
   display: flex;
   justify-content: center;
-  width: 650px;
+  max-width: 570px;
   border-radius: 10px;
   transition: transform 450ms;
 }
@@ -76,9 +76,6 @@ h1 {
   max-height: 100%;
   transition: all 0.2s linear;
 }
-.cards__item:hover {
-  transform: scale(1.1);
-}
 
 .cards__item__info {
   align-items: center;
@@ -103,10 +100,22 @@ h1 {
   .cards__items {
     display: flex;
   }
+  .cards__item:hover {
+    transform: scale(1.1);
+  }
 }
 
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cards__item {
+    margin-bottom: 2rem;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
   }
 }

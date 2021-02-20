@@ -61,8 +61,8 @@ const Home = React.forwardRef((props, ref) => {
       )}
       {/* <BlogApi/> */}
       <Widget/>
-      {/* <Project1/> */}
-      {/* <Mui/> */}
+      <Project1/>
+      <Mui/>
       {skills.show && (
         <Skills
           heading={skills.heading}

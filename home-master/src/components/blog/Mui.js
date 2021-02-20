@@ -13,7 +13,8 @@ import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import Avatar from "@material-ui/core/Avatar";
 import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder";
-import { Jumbotron } from "react-bootstrap";
+import { Jumbotron } from "react-bootstrap"
+import Tracker from '../home/images/covidtr.png'
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -48,7 +49,8 @@ const useStyles = makeStyles((theme) => ({
     height: 500,
   },
   media: {
-    height: 370,
+    height: 400,
+    alignContent: 'left'
   },
   cardActions: {
     display: "flex",
@@ -98,7 +100,7 @@ function Mui() {
         <Grid container spacing={6}>
         {/* <div id="medium-widget"></div> */}
           {newArray.map((article) => (
-            <Grid className={classes.grid} item xs={12} sm={12} md={12}>
+            <Grid className={classes.grid} item xs={12} sm={12} md={6}>
               <Card className={classes.card}>
                 <CardActionArea>
                   <CardMedia
@@ -127,12 +129,12 @@ function Mui() {
               </Card>
             </Grid>
           ))}
-          <Grid className={classes.grid} item xs={12} sm={12} md={12}>
+          <Grid className={classes.grid} item xs={12} sm={12} md={6}>
             <Card className={classes.card}>
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://cdn-images-1.medium.com/max/1881/1*eZvqSVrmbC4QL7XI_EfUjw.jpeg"
+                  image={Tracker}
                   title="Contemplative Reptile"
                 />
                 <CardContent>

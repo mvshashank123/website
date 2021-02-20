@@ -42,7 +42,6 @@
 
   .cards__item__pic-wrap {
     object-fit: contain;
-    position: relative;
     width: 400px;
     padding-top: 67%;
   }
@@ -97,11 +96,11 @@
     line-height: 24px;
   }
 }
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   .cards__item {
     width: 90%;
   }
-}
+} */
 
 @media only screen and (min-width: 1024px) {
   .cards__items {
@@ -112,5 +111,19 @@
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cards__items {
+    display: flex;
+  }
+  .cards__item__pic-wrap {
+    object-fit: contain;
+    width: 350px;
+    padding-top: 67%;
+  }
+  .row {
+    justify-content: center;
   }
 }
