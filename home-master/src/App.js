@@ -17,12 +17,12 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
 import { Blog } from "./components/blog/Blog";
 import BlogPost from "./components/blog/BlogPost";
-import Widget from "./components/blog/Widget"
-import Project1 from "./components/home/Project1"
+import Widget from "./components/blog/Widget";
+import Project1 from "./components/home/Project1";
 import BlogApi from "./components/blog/BlogApi";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
-import Mui from './components/blog/Mui.js'
+import Mui from "./components/blog/Mui.js";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -43,14 +43,14 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      {repos.show && (
+      {/* {repos.show && (
         <Project
           heading={repos.heading}
           username={repos.gitHubUsername}
           length={repos.reposLength}
           specfic={repos.specificRepos}
         />
-      )}
+      )} */}
       {leadership.show && (
         <Leadership
           heading={leadership.heading}
@@ -60,9 +60,10 @@ const Home = React.forwardRef((props, ref) => {
         />
       )}
       {/* <BlogApi/> */}
-      <Widget/>
-      <Project1/>
-      <Mui/>
+      <Project1 />
+      <Widget />
+
+      {/* <Mui/> */}
       {skills.show && (
         <Skills
           heading={skills.heading}
@@ -83,7 +84,7 @@ const App = () => {
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
       {true && <Route path="/blog" exact component={Blog} />}
       {true && <Route path="/blog/:id" component={BlogPost} />}
-      
+
       <Footer>
         {getInTouch.show && (
           <GetInTouch

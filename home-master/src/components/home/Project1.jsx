@@ -17,7 +17,7 @@ const Project = () => {
     <Jumbotron
       fluid
       className="jumbotron jumbotron-fluid m-0"
-      style={{ backgroundColor: "white" }}
+      style={{ backgroundColor: "gray" }}
     >
       <Container>
         <h1 className="display-4 mb-5 text-center">Projects</h1>
@@ -38,32 +38,32 @@ const Project = () => {
             />
           
         </Row>
-        {/* <Row>
-          <Col>
+        <Row>
+      
           <ProjectCard1
               src={spotify}
               text="Spotify Clone"
               label="Github"
               link="https://github.com/mvshashank123/Spotify-Clone"
             />
-          </Col>
-          <Col>
+          
+       
           <ProjectCard1
               src={netflix}
               text="Netflix Clone"
               label="Live Demo"
               link="https://netflix-clone-6842f.web.app/"
             />
-          </Col>
-          <Col>
+         
+     
           <ProjectCard1
               src={messaging}
               text="Messaging Application"
               label="Github"
               link="https://messaging-app-c260d.web.app/"
             />
-          </Col>
-        </Row> */}
+          
+        </Row>
         {/* <ul className="cards__items">
           <div>
             <ProjectCard1
