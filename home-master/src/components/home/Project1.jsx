@@ -18,6 +18,7 @@ const Project = () => {
       fluid
       className="jumbotron jumbotron-fluid m-0"
       style={{ backgroundColor: "gray" }}
+      id="projects"
     >
       <Container>
         <h1 className="display-4 mb-5 text-center">Projects</h1>

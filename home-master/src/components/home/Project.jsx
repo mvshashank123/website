@@ -67,7 +67,7 @@ const Project = ({ heading, username, length, specfic }) => {
   }, [fetchRepos]);
 
   return (
-    <Jumbotron fluid id="projects" className="jumbotron jumbotron-fluid m-0"
+    <Jumbotron fluid className="jumbotron jumbotron-fluid m-0"
     style={{ backgroundColor: "gray" }}>
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>

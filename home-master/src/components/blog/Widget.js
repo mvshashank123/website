@@ -13,6 +13,7 @@ const Widget = () => {
 
   return <Jumbotron
   fluid
+  id="blogs"
   className="jumbotron jumbotron-fluid m-0"
   style={{ backgroundColor: "white" }}
 >
