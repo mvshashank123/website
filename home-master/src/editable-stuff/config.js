@@ -45,7 +45,7 @@ const mainBody = {
 //b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
+//      i.e: profilePictureLink: require("../editable-stuff/shashank.png"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
@@ -58,12 +58,12 @@ const about = {
   imageLink: require("../editable-stuff/Profile.jpg"),
   imageSize: 375,
   message:
-  "Hello! My name is Shashank, I'm a Software Engineer working at Capgemini. I work on building Web applications using React. I have a keen interest in Machine Learning and Artificial Intelligence. I also love to play games and have a zeal for learning new Technologies. ",
+  "Hello! My name is Shashank, I'm a Senior Software Engineer working at Capgemini. I work on building Web applications using React. I have a keen interest in Machine Learning and Artificial Intelligence. I also love to play games and have a zeal for learning new Technologies. ",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
+// Setting up project length will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
@@ -138,5 +138,7 @@ const getInTouch = {
 // const blog = {
 //   show: false,
 // };
+// 375 to 994
+// 994 to 1200
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch };

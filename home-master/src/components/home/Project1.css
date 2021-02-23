@@ -127,3 +127,24 @@
     justify-content: center;
   }
 }
+
+@media only screen and (min-width: 375px) and (max-width: 994px) {
+  .row {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 995px) and (max-width: 1200px) {
+  .row {
+    justify-content: space-between;
+  }
+  .cards__items {
+    display: flex;
+    padding-right: 30px;
+  }
+  .cards__item__pic-wrap {
+    object-fit: contain;
+    width: 400px;
+    padding-top: 67%;
+  }
+}

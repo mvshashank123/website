@@ -23,47 +23,41 @@ const Project = () => {
       <Container>
         <h1 className="display-4 mb-5 text-center">Projects</h1>
         <Row className="row__project">
-          
-            <ProjectCard1
-              src={covidtr}
-              text="COVID-19 Tracker"
-              label="Live Demo"
-              link="https://covid-19-tracker-76b59.web.app/"
-            />
-         
-            <ProjectCard1
-              src={amazon}
-              text="Amazon Clone"
-              label="Live Demo"
-              link="https://clone-7d06d.web.app/"
-            />
-          
+          <ProjectCard1
+            src={covidtr}
+            text="COVID-19 Tracker"
+            label="Live Demo"
+            link="https://covid-19-tracker-76b59.web.app/"
+          />
+
+          <ProjectCard1
+            src={amazon}
+            text="Amazon Clone"
+            label="Live Demo"
+            link="https://clone-7d06d.web.app/"
+          />
         </Row>
         <Row>
-      
           <ProjectCard1
-              src={spotify}
-              text="Spotify Clone"
-              label="Github"
-              link="https://github.com/mvshashank123/Spotify-Clone"
-            />
-          
-       
+            src={netflix}
+            text="Netflix Clone"
+            label="Live Demo"
+            link="https://netflix-clone-a0097.web.app/"
+          />
           <ProjectCard1
-              src={netflix}
-              text="Netflix Clone"
-              label="Live Demo"
-              link="https://netflix-clone-6842f.web.app/"
-            />
-         
-     
+            src={spotify}
+            text="Spotify Clone"
+            label="Github"
+            link="https://github.com/mvshashank123/Spotify-Clone"
+          />
+        </Row>
+        <Row>
           <ProjectCard1
-              src={messaging}
-              text="Messaging Application"
-              label="Github"
-              link="https://messaging-app-c260d.web.app/"
-            />
-          
+            src={messaging}
+            text="Messaging Application"
+            label="Github"
+            link="https://messaging-app-c260d.web.app/"
+          />
         </Row>
         {/* <ul className="cards__items">
           <div>
