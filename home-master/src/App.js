@@ -39,14 +39,6 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      {/* {repos.show && (
-        <Project
-          heading={repos.heading}
-          username={repos.gitHubUsername}
-          length={repos.reposLength}
-          specfic={repos.specificRepos}
-        />
-      )} */}
       {leadership.show && (
         <Leadership
           heading={leadership.heading}
@@ -55,10 +47,8 @@ const Home = React.forwardRef((props, ref) => {
           imageSize={leadership.imageSize}
         />
       )}
-      {/* <BlogApi/> */}
       <Project1 />
       <Widget />
-      {/* <Mui/> */}
       {skills.show && (
         <Skills
           heading={skills.heading}

@@ -56,7 +56,7 @@ const Project = () => {
             src={messaging}
             text="Messaging Application"
             label="Github"
-            link="https://messaging-app-c260d.web.app/"
+            link="https://github.com/mvshashank123/Messaging-Application-React"
           />
         </Row>
         {/* <ul className="cards__items">
