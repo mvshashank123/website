@@ -4,14 +4,12 @@ import {
   navBar,
   mainBody,
   about,
-  repos,
   leadership,
   skills,
   getInTouch,
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
-import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
@@ -19,10 +17,8 @@ import { Blog } from "./components/blog/Blog";
 import BlogPost from "./components/blog/BlogPost";
 import Widget from "./components/blog/Widget";
 import Project1 from "./components/home/Project1";
-import BlogApi from "./components/blog/BlogApi";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
-import Mui from "./components/blog/Mui.js";
 
 const Home = React.forwardRef((props, ref) => {
   return (

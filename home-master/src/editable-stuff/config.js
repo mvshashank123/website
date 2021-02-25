@@ -58,7 +58,7 @@ const about = {
   imageLink: require("../editable-stuff/Profile.jpg"),
   imageSize: 375,
   message:
-  "Hello! My name is Shashank, I'm a Senior Software Engineer working at Capgemini. I work on building Web applications using React. I have a keen interest in Machine Learning and Artificial Intelligence. I also love to play games and have a zeal for learning new Technologies. ",
+  "Hello! My name is Shashank, I'm a Senior Software Engineer working at Capgemini. I work on building Web applications using React. I have a keen interest in Machine Learning and Artificial Intelligence and, I have a zeal for learning new technologies. The top portion of my attached resume highlights my career profile and the responsibilities I have had in my previous role.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -116,12 +116,12 @@ const skills = {
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Positivity", value: 80 },
+    { name: "Adaptability", value: 90 },
+    { name: "Problem Solving", value: 80 },
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
-    { name: "Creativity", value: 76 },
+    { name: "Creativity", value: 80 },
   ],
 };
 
@@ -130,7 +130,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at ",
+    "I'm currently looking for full-time Software Engineering, Software Development or Machine Learning opportunities! If you know of any positions available, have any questions, or just want to say hi, please feel free to reach me out at",
   email: "mv.shashank123@gmail.com",
 };
 
