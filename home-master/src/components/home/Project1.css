@@ -96,11 +96,6 @@
     line-height: 24px;
   }
 }
-/* @media only screen and (max-width: 480px) {
-  .cards__item {
-    width: 90%;
-  }
-} */
 
 @media only screen and (min-width: 1024px) {
   .cards__items {
