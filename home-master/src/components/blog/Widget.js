@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Jumbotron } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import './Widget.css'
 
 const Widget = () => {
-  const [mediumData, setMediumData] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     window.mediumWidget();
