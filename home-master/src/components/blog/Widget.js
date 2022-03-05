@@ -4,9 +4,6 @@ import Container from "react-bootstrap/Container";
 import "./Widget.css";
 
 const Widget = () => {
-  useEffect(() => {
-    window.mediumWidget();
-  }, []);
 
   return (
     <Jumbotron
@@ -17,7 +14,6 @@ const Widget = () => {
     >
       <Container className="">
         <h2 className="display-4 pb-5 text-center">Latest Articles</h2>
-        <div id="medium-widget"></div>
       </Container>
     </Jumbotron>
   );

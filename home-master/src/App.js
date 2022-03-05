@@ -15,7 +15,6 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
 import { Blog } from "./components/blog/Blog";
 import BlogPost from "./components/blog/BlogPost";
-import Widget from "./components/blog/Widget";
 import Project1 from "./components/home/Project1";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
@@ -48,7 +47,6 @@ const Home = React.forwardRef((props, ref) => {
         />
       )}
       <Project1 />
-      <Widget />
       {skills.show && (
         <Skills
           heading={skills.heading}
@@ -67,8 +65,6 @@ const App = () => {
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
-      {true && <Route path="/blog" exact component={Blog} />}
-      {true && <Route path="/blog/:id" component={BlogPost} />}
 
       <Footer>
         {getInTouch.show && (
