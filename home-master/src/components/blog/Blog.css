@@ -1,0 +1,19 @@
+.image-style{
+    height: 300px;
+    width: 400px;
+}
+@media only screen and (max-width: 600px) {
+    .image-style{
+        height: 200px;
+        width: 250px;
+    }
+  }
+  
+.card-hover{
+    
+}
+.card-hover:hover{
+    box-shadow: inherit;
+    transform: translateY(0);
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+}
