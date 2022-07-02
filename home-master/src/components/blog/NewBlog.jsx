@@ -50,7 +50,7 @@ const NewBlog = () => {
       <Container>
         <h1 className="display-4 mb-5 text-center">Blog</h1>
         <div className="container">
-          <div className="row p-2">
+          <div className="row p-2 justify-content-between">
             {_.isArray(col1) &&
               col1.length > 0 &&
               col1.map((item) => {
