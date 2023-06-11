@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.26251919.chunk.css",
-    "main.js": "/website/static/js/main.c8bd7f64.chunk.js",
-    "main.js.map": "/website/static/js/main.c8bd7f64.chunk.js.map",
-    "runtime-main.js": "/website/static/js/runtime-main.d57c616e.js",
-    "runtime-main.js.map": "/website/static/js/runtime-main.d57c616e.js.map",
-    "static/js/2.b6bddd1a.chunk.js": "/website/static/js/2.b6bddd1a.chunk.js",
-    "static/js/2.b6bddd1a.chunk.js.map": "/website/static/js/2.b6bddd1a.chunk.js.map",
+    "main.css": "/website/static/css/main.0d770b32.chunk.css",
+    "main.js": "/website/static/js/main.afa568a8.chunk.js",
+    "main.js.map": "/website/static/js/main.afa568a8.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.0d074f3d.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.0d074f3d.js.map",
+    "static/js/2.0140c9e5.chunk.js": "/website/static/js/2.0140c9e5.chunk.js",
+    "static/js/2.0140c9e5.chunk.js.map": "/website/static/js/2.0140c9e5.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.df24ded792c87495906742456199f515.js": "/website/precache-manifest.df24ded792c87495906742456199f515.js",
+    "precache-manifest.5751c0b4140800ec837fe81a24bb3cc9.js": "/website/precache-manifest.5751c0b4140800ec837fe81a24bb3cc9.js",
     "service-worker.js": "/website/service-worker.js",
-    "static/css/main.26251919.chunk.css.map": "/website/static/css/main.26251919.chunk.css.map",
-    "static/js/2.b6bddd1a.chunk.js.LICENSE.txt": "/website/static/js/2.b6bddd1a.chunk.js.LICENSE.txt",
+    "static/css/main.0d770b32.chunk.css.map": "/website/static/css/main.0d770b32.chunk.css.map",
+    "static/js/2.0140c9e5.chunk.js.LICENSE.txt": "/website/static/js/2.0140c9e5.chunk.js.LICENSE.txt",
+    "static/js/main.afa568a8.chunk.js.LICENSE.txt": "/website/static/js/main.afa568a8.chunk.js.LICENSE.txt",
     "static/media/Profile.jpg": "/website/static/media/Profile.96a4a08d.jpg",
     "static/media/amazon.png": "/website/static/media/amazon.51c07cbd.png",
     "static/media/covidtr.png": "/website/static/media/covidtr.749e5c80.png",
     "static/media/messaging.png": "/website/static/media/messaging.e661fdc0.png",
     "static/media/netflix.png": "/website/static/media/netflix.1d1d0a21.png",
-    "static/media/resume.pdf": "/website/static/media/resume.a8193a0f.pdf",
+    "static/media/resume.pdf": "/website/static/media/resume.50835d0c.pdf",
     "static/media/spotify.png": "/website/static/media/spotify.c4da5bf8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d57c616e.js",
-    "static/js/2.b6bddd1a.chunk.js",
-    "static/css/main.26251919.chunk.css",
-    "static/js/main.c8bd7f64.chunk.js"
+    "static/js/runtime-main.0d074f3d.js",
+    "static/js/2.0140c9e5.chunk.js",
+    "static/css/main.0d770b32.chunk.css",
+    "static/js/main.afa568a8.chunk.js"
   ]
 }
