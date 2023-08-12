@@ -1,30 +1,30 @@
 {
   "files": {
     "main.css": "/website/static/css/main.0d770b32.chunk.css",
-    "main.js": "/website/static/js/main.527a361d.chunk.js",
-    "main.js.map": "/website/static/js/main.527a361d.chunk.js.map",
+    "main.js": "/website/static/js/main.b9194c59.chunk.js",
+    "main.js.map": "/website/static/js/main.b9194c59.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.0d074f3d.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.0d074f3d.js.map",
     "static/js/2.0140c9e5.chunk.js": "/website/static/js/2.0140c9e5.chunk.js",
     "static/js/2.0140c9e5.chunk.js.map": "/website/static/js/2.0140c9e5.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.46633391a4b1c1bee9a8cf5209fb7334.js": "/website/precache-manifest.46633391a4b1c1bee9a8cf5209fb7334.js",
+    "precache-manifest.aa6cc59b873099d63c76a17717c9e0d0.js": "/website/precache-manifest.aa6cc59b873099d63c76a17717c9e0d0.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/main.0d770b32.chunk.css.map": "/website/static/css/main.0d770b32.chunk.css.map",
     "static/js/2.0140c9e5.chunk.js.LICENSE.txt": "/website/static/js/2.0140c9e5.chunk.js.LICENSE.txt",
-    "static/js/main.527a361d.chunk.js.LICENSE.txt": "/website/static/js/main.527a361d.chunk.js.LICENSE.txt",
+    "static/js/main.b9194c59.chunk.js.LICENSE.txt": "/website/static/js/main.b9194c59.chunk.js.LICENSE.txt",
     "static/media/Profile.jpg": "/website/static/media/Profile.96a4a08d.jpg",
     "static/media/amazon.png": "/website/static/media/amazon.51c07cbd.png",
     "static/media/covidtr.png": "/website/static/media/covidtr.749e5c80.png",
     "static/media/messaging.png": "/website/static/media/messaging.e661fdc0.png",
     "static/media/netflix.png": "/website/static/media/netflix.1d1d0a21.png",
-    "static/media/resume.pdf": "/website/static/media/resume.50835d0c.pdf",
+    "static/media/resume.pdf": "/website/static/media/resume.b57d85d9.pdf",
     "static/media/spotify.png": "/website/static/media/spotify.c4da5bf8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0d074f3d.js",
     "static/js/2.0140c9e5.chunk.js",
     "static/css/main.0d770b32.chunk.css",
-    "static/js/main.527a361d.chunk.js"
+    "static/js/main.b9194c59.chunk.js"
   ]
 }
