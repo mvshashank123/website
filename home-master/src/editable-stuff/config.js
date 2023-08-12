@@ -130,7 +130,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering, Software Development or Machine Learning opportunities! If you know of any positions available, have any questions, or just want to say hi, please feel free to reach me out at",
+    "I'm currently looking for full-time Software Engineering, Frontend Development or Fullstack Development opportunities! If you know of any positions available, have any questions, or just want to say hi, please feel free to reach me out at",
   email: "mv.shashank123@gmail.com",
 };
 
