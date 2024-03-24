@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Shashank",
   middleName: "",
   lastName: "M V",
-  message: " Web Developer | Software Engineer | Programmer | Technology Enthusiast | Gamer ",
+  message: " Passionate Web Developer | Software Engineer | Programmer | Technology Enthusiast | Avid Gamer ",
   icons: [
     {
       "id": 0,
@@ -58,7 +58,7 @@ const about = {
   imageLink: require("../editable-stuff/Profile.jpg"),
   imageSize: 375,
   message:
-  "Hello! My name is Shashank, I'm currently working as a Senior Engineer at Target. I work on building Web applications using React. I have a keen interest in Machine Learning and Artificial Intelligence. I also have a zeal for learning new technologies. The top portion of my attached resume highlights my career profile and the responsibilities I have had in my previous role.",
+  "Hello, I'm Shashank, a Senior Engineer at Target, specializing in building Web applications with React. Beyond my current role, I harbor a profound fascination for Machine Learning and Artificial Intelligence, constantly seeking to expand my knowledge in these domains. Eager to embrace emerging technologies, I thrive on the challenge of continuous learning. For further insights into my career trajectory and past responsibilities, please refer to the top section of my enclosed resume.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
